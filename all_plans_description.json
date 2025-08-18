@@ -1,0 +1,333 @@
+{
+  "W": {
+    "goal": {
+      "oranges": {
+        "Bath": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Bath": 8.0
+        }
+      }
+    }
+  },
+  "1-A": {
+    "goal": {
+      "juice": {
+        "Avon": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "juice": {
+          "Avon": 15.0
+        }
+      }
+    }
+  },
+  "1-B": {
+    "goal": {
+      "bananas": {
+        "Corning": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Corning": 11.0
+        }
+      }
+    }
+  },
+  "1-C": {
+    "goal": {
+      "oranges": {
+        "Bath": 4
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Bath": 14.0
+        }
+      }
+    }
+  },
+  "1-D": {
+    "goal": {
+      "juice": {
+        "Bath": 3
+      },
+      "bananas": {
+        "Bath": 3
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "juice": {
+          "Bath": 24.0
+        },
+        "bananas": {
+          "Bath": 24.0
+        }
+      }
+    }
+  },
+  "1-E": {
+    "goal": {
+      "oranges": {
+        "Avon": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Avon": 9.0
+        }
+      }
+    }
+  },
+  "2-A": {
+    "goal": {
+      "oranges": {
+        "Bath": 4
+      },
+      "juice": {
+        "Bath": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Bath": 24.0
+        },
+        "juice": {
+          "Bath": 24.0
+        }
+      }
+    },
+    "overrides": {
+      "boxcars": [
+        {
+          "location": "Corning",
+          "payload": "oranges",
+          "count": 5
+        }
+      ]
+    }
+  },
+  "2-B": {
+    "goal": {
+      "bananas": {
+        "Corning": 1
+      },
+      "juice": {
+        "Avon": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Corning": 15.0
+        },
+        "juice": {
+          "Avon": 15.0
+        }
+      }
+    }
+  },
+  "2-D": {
+    "goal": {
+      "bananas": {
+        "Bath": 1
+      },
+      "oranges": {
+        "Bath": 1
+      },
+      "juice": {
+        "Bath": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Bath": 12.0
+        },
+        "oranges": {
+          "Bath": 12.0
+        },
+        "juice": {
+          "Bath": 12.0
+        }
+      }
+    }
+  },
+  "2-E": {
+    "goal": {
+      "oranges": {
+        "Bath": 5
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Bath": 7.0
+        }
+      }
+    }
+  },
+  "2-F": {
+    "goal": {
+      "bananas": {
+        "Bath": 3
+      },
+      "juice": {
+        "Dansville": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Bath": 12.0
+        },
+        "juice": {
+          "Dansville": 12.0
+        }
+      }
+    }
+  },
+  "2-G": {
+    "goal": {
+      "bananas": {
+        "Dansville": 2
+      },
+      "oranges": {
+        "Dansville": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Dansville": 10.0
+        },
+        "oranges": {
+          "Dansville": 10.0
+        }
+      }
+    }
+  },
+  "3-A": {
+    "goal": {
+      "juice": {
+        "Avon": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "juice": {
+          "Avon": 13.0
+        }
+      }
+    }
+  },
+  "3-B": {
+    "goal": {
+      "bananas": {
+        "Bath": 1,
+        "Corning": 1,
+        "Elmira": 1
+      },
+      "juice": {
+        "Avon": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Bath": 24.0,
+          "Corning": 24.0,
+          "Elmira": 24.0
+        },
+        "juice": {
+          "Avon": 24.0
+        }
+      }
+    }
+  },
+  "3-C": {
+    "goal": {
+      "bananas": {
+        "Elmira": 3
+      },
+      "juice": {
+        "Avon": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "bananas": {
+          "Elmira": 21.0
+        },
+        "juice": {
+          "Avon": 24.0
+        }
+      }
+    }
+  },
+  "3-D": {
+    "goal": {
+      "oranges": {
+        "Avon": 2
+      },
+      "juice": {
+        "Avon": 1
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Avon": 15.0
+        },
+        "juice": {
+          "Avon": 15.0
+        }
+      }
+    }
+  },
+  "3-E": {
+    "goal": {
+      "oranges": {
+        "Elmira": 7
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Elmira": 9.0
+        }
+      }
+    }
+  },
+  "3-F": {
+    "goal": {
+      "oranges": {
+        "Dansville": 1
+      },
+      "bananas": {
+        "Dansville": 2
+      }
+    },
+    "constraints": {
+      "deliver_deadlines": {
+        "oranges": {
+          "Dansville": 12.0
+        },
+        "bananas": {
+          "Dansville": 12.0
+        }
+      }
+    }
+  }
+}

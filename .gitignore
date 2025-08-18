@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+.env
+*.jsonl
+*.log
+archive/
+test_results/
+test_utils/
+old_docs/
+
+# Unused/experimental solvers
+improved_algorithmic_solver.py
+optimized_solver.py
+
+# Analysis scripts
+token_analysis.py
+
+# Temporary files
+*.tmp
+*.bak
+*~
